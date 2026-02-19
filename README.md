@@ -17,22 +17,21 @@ Asisten Minka adalah chatbot Telegram cerdas yang menggunakan model **Llama 3.3*
 ## 📦 Cara Setup
 1. **Clone Repository ini:**
    ```bash
-   git clone [https://github.com/dfulndri-lo/chatbot-telegram-openai.git](https://github.com/dfulndri-lo/chatbot-telegram-openai.git)
+   git clone [https://github.com/dfulndri/Minke-Asisten.git]
    cd chatbot-telegram-openai
 
 ### 🛠️ Langkah Instalasi
-1. **Buat Virtual Environment & Aktifkan:**
+2. **Buat Virtual Environment & Aktifkan:**
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    pip install python-telegram-bot groq python-dotenv
 
-   ### 🛠️ Langkah Instalasi
-2. **Konfigurasi Environment:**
+3. **Konfigurasi Environment:**
    ```bash
    TELEGRAM_BOT_TOKEN=isi_token_botfather
    GROQ_API_KEY=isi_api_key_groq
 
-3. **Jalankan Bot:**
+4. **Jalankan Bot:**
    ``` bash 
    python bot.py
