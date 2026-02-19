@@ -29,8 +29,10 @@ Asisten Minka adalah chatbot Telegram cerdas yang menggunakan model **Llama 3.3*
 
    ### 🛠️ Langkah Instalasi
 2. **Konfigurasi Environment:**
-   ```TELEGRAM_BOT_TOKEN=isi_token_botfather
-GROQ_API_KEY=isi_api_key_groq
+   ```bash
+   TELEGRAM_BOT_TOKEN=isi_token_botfather
+   GROQ_API_KEY=isi_api_key_groq
 
 3. **Jalankan Bot:**
-   ```python bot.py
+   ``` bash 
+   python bot.py
